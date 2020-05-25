@@ -1,0 +1,328 @@
+*{
+    box-sizing: border-box;
+    margin:0;    
+    }
+
+
+body{
+    background-color: rgb(73, 74, 78);
+    min-width: 341px;
+}
+
+.portada{
+    width: 100%;
+    background-color: rgb(87, 22, 22);
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center
+}
+
+
+.divLogo{
+    width:  300px;
+    height: 200px;
+}
+
+.divLogo img{
+    height: 100%;
+}
+
+
+@media (max-width: 449px){
+    .divLogo{
+        width: 100%;
+        height: auto;
+    }
+    .divLogo img{
+        width: 100%;
+        height: auto;
+    }
+}
+.menu a{
+    background-color: darkgoldenrod ;
+    color: black;
+    float: left;
+    text-decoration: none;
+    width: 33.33%;
+    text-align: center;
+    padding: 15px;
+    margin: 0 0 0;
+    font-size: large;
+}
+
+.menu a:hover{
+    background-color: yellow;
+    transition: all .4s ease;
+}
+
+.divContenido{
+    background-color: white;
+    margin: auto;
+    max-width: 1300px;
+    height: auto;
+    border-left: gold 2px solid;
+    border-right: gold 2px solid;
+}
+
+@media (max-width: 1300px){
+    .divContenido{
+        border-left:0px ;
+        border-right:0px ;
+    } 
+}
+
+.login{
+    background-color: rgba(209, 209, 209, 0.329);
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    display: none;
+
+}
+
+.displeycentrar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.divLR{
+    background-color: rgb(87, 22, 22);
+    position: relative;
+    position: center;
+    color:  gold;
+    font-size: x-large;
+    width: 400px;
+    height: 450px;
+    border-radius: 15px;
+    border: darkgoldenrod 4px solid;
+}
+
+.cerrarlogin{
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 10px;
+    right: 10px;
+}
+
+.cerrarlogin img{height: 30px;}
+
+
+.input{
+    display: block;
+    align-items: center;
+}
+
+.linkR{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    bottom: 40px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+}
+
+.linkR a{
+    background-color:darkgoldenrod;
+    color: black;
+    border: white 2px solid;
+    font-size: x-large;
+    text-decoration: none;
+    height: 100%;
+    text-align: center;
+    padding: 2;
+    margin: 0 0 0 0;
+}
+
+.linkR a:hover{
+    background-color: gold;
+    border:white 2px solid;
+    transition: all .7s ease;
+}
+
+.conimp input{
+    text-align: center;
+    width: 80%;
+    height: 35px;
+    border-radius: 10px;
+    font-size: x-large;
+}
+
+@media (max-width: 397px){
+    .conimp input{
+        text-align: center;
+        width: 100%;
+        height: 35px;
+        border-radius: 10px;
+        font-size: x-large;
+    }
+}
+
+.titBien{
+    position: relative;
+    top: 25px;
+    font-size: xx-large;
+}
+
+#correoL{
+    position: relative;
+    top: 50px;
+}
+
+#contraseñaL{
+    position: relative;
+    top: 65px;
+}
+.boton{
+    position: relative;
+    top: 90px;
+}
+
+.boton input{
+    background-color: darkgoldenrod;
+    width: 40%;
+    height: 35px;
+    font-size: large;
+}
+
+
+.linkOlvidemicontraseña{
+    position: relative;
+    top: 110px;
+    font-size: medium;
+}
+
+
+.topconR{
+    position: relative;
+    top: 30px;
+}
+
+
+.conimpR input{
+    width: 80%;
+    height: 35px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: large;
+}
+
+@media (max-width: 397px){
+    .conimpR input{
+        width: 100%;
+        height: 35px;
+        text-align: center;
+        border-radius: 10px;
+        font-size: large;
+    }
+}
+
+.botonAceptar{
+    position: relative;
+    top: 50px;
+}
+
+.botonAceptar input{
+    background-color: darkgoldenrod;
+    width: 45%;
+    height: 30px;
+}
+
+
+
+.linkOlvidemicontraseña a{
+    color: #efb710;
+}
+
+#divR{
+    display: none;
+}
+
+
+footer{
+    height: auto;
+    background-color: rgb(87, 22, 22);
+    border:darkgoldenrod 3px solid;
+    height: auto;
+    color:#efb810;
+}
+
+
+.divRedes{
+    height: 400px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    display:-webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Con{
+    margin: 5px 20px 0px;
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+.Con img:hover{
+    width: 60px;
+}
+.Con img{
+    width: 100%;
+}
+
+.divRedes{
+    height: auto;
+    margin-top: 10px;
+}
+.contacto{
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+.contacto h3{
+
+    font-size: x-large;
+    text-align: center;
+}
+
+.footerInfo{
+    margin-top: 30px;
+    height: auto;
+    font-size: x-large;
+    text-align: center;
+}
+
+
+@media (max-width:304px){
+    #divmail h3{
+        font-size: 20px;
+    }
+}
+    @media (max-width:304px){
+        #divmail h3{
+            font-size: 18px;
+        }
+}
+
